@@ -11,3 +11,6 @@ Each pass through the list places the next largest value in its proper place.
 In essence, each item “bubbles” up to the location where it belongs.
 
 ![alt text](https://github.com/MSNAhamed/Learn-With-Source-Code/blob/master/Algorithms/Sorting-Algorithms/Bubble-sort.gif)
+![alt text](https://github.com/MSNAhamed/Learn-With-Source-Code/blob/master/Algorithms/Sorting-Algorithms/BubbleSort_Avg_case.gif)
+
+
