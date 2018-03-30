@@ -23,3 +23,13 @@ The **selection sort** improves on the bubble sort by making only one exchange f
 
 ![alt text](https://github.com/MSNAhamed/Learn-With-Source-Code/blob/master/Algorithms/Sorting-Algorithms/Selection-Sort.gif)
 
+## The Insertion Sort
+
+We begin by assuming that a list with one item (position 0) is already sorted. On each pass, one for each item 1 
+through n−1, the current item is checked against those in the already sorted sublist. As we look back into the 
+already sorted sublist, we shift those items that are greater to the right. When we reach a smaller item or the 
+end of the sublist, the current item can be inserted.
+
+![alt text](https://github.com/MSNAhamed/Learn-With-Source-Code/blob/master/Algorithms/Sorting-Algorithms/Insertion-sort.gif)
+
+
