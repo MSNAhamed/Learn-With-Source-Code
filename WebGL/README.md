@@ -23,3 +23,7 @@ WebGL applications are written in JavaScript. Using these applications.
 - No need for compilation
 - Automatic memory management
 - Easy to set up
+
+## Enviroment Setup
+
+There is no need to set a different environment for WebGL. The browsers supporting WebGL have their own in-built setup for WebGL.
