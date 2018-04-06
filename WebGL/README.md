@@ -30,3 +30,11 @@ There is no need to set a different environment for WebGL. The browsers supporti
 
 To create graphical applications on the web, HTML-5 provides a rich set of features such as 2D Canvas, WebGL, SVG, 3D CSS transforms, and SMIL. To write WebGL applications, we use the existing canvas element of HTML-5. 
 
+WebGL is mostly a low-level rasterization API rather than a 3D API. To draw an image using WebGL, you have to pass a vector representing the image. It then converts the given vector into pixel format using OpenGL SL and displays the image on the screen. 
+
+## WebGL – Coordinate System
+
+Just like any other 3D system, you will have x, y and z axes in WebGL, where the z axis signifies depth. The coordinates in WebGL are restricted to (1, 1, 1) and (-1, -1, - 1). It means − if you consider the screen projecting WebGL graphics as a cube, then one corner of the cube will be (1, 1, 1) and the opposite corner will be (-1, -1, -1). WebGL won’t display anything that is drawn beyond these boundaries.
+
+
+
