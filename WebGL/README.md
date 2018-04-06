@@ -27,3 +27,6 @@ WebGL applications are written in JavaScript. Using these applications.
 ## Enviroment Setup
 
 There is no need to set a different environment for WebGL. The browsers supporting WebGL have their own in-built setup for WebGL.
+
+To create graphical applications on the web, HTML-5 provides a rich set of features such as 2D Canvas, WebGL, SVG, 3D CSS transforms, and SMIL. To write WebGL applications, we use the existing canvas element of HTML-5. 
+
