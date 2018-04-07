@@ -64,6 +64,34 @@ Example
 
 var vertices = [ 0.5, 0.5, 0.1,-0.5, 0.5,-0.5] 
 
+- Buffers
+
+Buffers are the memory areas of WebGL that hold the data. There are various buffers namely, drawing buffer, frame buffer, vetex buffer, and index buffer. The vertex buffer and index buffer are used to describe and process the geometry of the model.
+
+'''
+
+    Vertex buffer objects − This stores data corresponding to each vertex (per-vertex data)
+
+    Index buffer objects This stores data about the indices.
+
+    Frame buffer is a portion of graphics memory that hold the scene data. This buffer contains details such as width and height of the surface (in pixels), color of each pixel and their depth.
+
+'''
+
+After storing the vertices into arrays, we pass them to WegGL graphics pipeline using these Buffer objects.
+
+- Mesh
+
+To draw 2D or 3D objects, the WebGL API provides two methods namely, drawArrays() and drawElements(). These two methods accept a parameter called mode using which you can select the object you want to draw. The options provided by this field are restricted to points, lines, and triangles.
+
+To draw a 3D object using these two methods, we have to construct one or more primitive polygons using points, lines, or triangles. Thereafter, using those primitive polygons, we can form a mesh.
+
+A 3D object drawn using primitive polygons is called a mesh. WebGL offers several ways to draw 3D graphical objects, however users normally prefer to draw a mesh.
+
+Example
+
+In the following example, you can observe that we have drawn a square using two triangles→ {1, 2, 3} and {4, 1, 3}.
+
 
 
 
