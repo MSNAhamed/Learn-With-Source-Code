@@ -36,5 +36,34 @@ WebGL is mostly a low-level rasterization API rather than a 3D API. To draw an i
 
 Just like any other 3D system, you will have x, y and z axes in WebGL, where the z axis signifies depth. The coordinates in WebGL are restricted to (1, 1, 1) and (-1, -1, - 1). It means − if you consider the screen projecting WebGL graphics as a cube, then one corner of the cube will be (1, 1, 1) and the opposite corner will be (-1, -1, -1). WebGL won’t display anything that is drawn beyond these boundaries.
 
+## WebGL Fundamentals
+
+After getting the WebGL context of the canvas object, you can start drawing graphical elements using WebGL API in JavaScript.
+
+Here are some fundamental terms you need to know before starting with WebGL.
+
+- Vertices
+
+Generally, to draw objects such as a polygon, we mark the points on the plane and join them to form a desired polygon. A vertex is a point which defines the conjunction of the edges of a 3D object. It is represented by three floating point values each representing x, y, z axes respectively.
+Example,
+
+In the following example, we are drawing a triangle with the following vertices − (0.5, 0.5), (-0.5, 0.5), (-0.5, -0.5).
+
+Note − We have to store these vertices manually using JavaScript arrays and pass them to the WebGL rendering pipeline using vertex buffer.
+
+- Indices
+
+In WebGL, numerical values are used to identify the vertices. These numerical values are known as indices. These indices are used to draw meshes in WebGL.
+
+Note − Just like vertices, we store the indices using JavaScript arrays and pass them to WebGL rendering pipeline using index buffer.
+
+- Arrays
+
+Unlike OpenGL and JoGL, there are no predefined methods in WebGL to render the vertices directly. We have to store them manually using JavaScript arrays.
+Example
+
+var vertices = [ 0.5, 0.5, 0.1,-0.5, 0.5,-0.5] 
+
+
 
 
