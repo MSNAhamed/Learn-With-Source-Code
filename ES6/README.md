@@ -1,4 +1,4 @@
-# Welcome to ES6 Tutorial 
+Code# Welcome to ES6 Tutorial 
 
 ECMAScript (ES) is a scripting language specification standardized by ECMAScript International. It is used by applications to enable client-side scripting.
 
@@ -32,9 +32,37 @@ Each promise goes through a short lifecycle starting in the  _pending_  state, w
 An internal  `[[PromiseState]]`  property is set to  `"pending"`,  `"fulfilled"`, or  `"rejected"`  to reflect the promise’s state. This property isn’t exposed on promise objects, so you can’t determine which state the promise is in programmatically. But you can take a specific action when a promise changes state by using the  `then()`  method.
 
 - Arrow Functions
+
+Lambda refers to anonymous functions in programming. Lambda functions are a concise mechanism to represent anonymous functions. These functions are also called as **Arrow functions**.
+There are 3 parts to a Arrow function −
+'''
+
+    Parameters − A function may optionally have parameters.
+
+    The fat arrow notation/lambda notation (=>): It is also called as the goes to operator.
+
+    Statements − Represents the function’s instruction set.
+
+'''
+
 - Modules
+
+Consider a scenario where parts of JavaScript code need to be reused. ES6 comes to your rescue with the concept of Modules.
+In simpler terms, the modules help you to write the code in your module and expose only those parts of the code that should be accessed by other parts of your code.
+To make available certain parts of the module, use the export keyword. Following is the syntax to export a module.
+
+**export default element_name**
+**export {element_name1,element_name2,....}**
+To be able to consume a module, use the import keyword. Following is the syntax for the same.
+
 - let vs. var
+
 - Classes
+
+Object Orientation is a software development paradigm that follows real-world modelling. Object Orientation, considers a program as a collection of objects that communicates with each other via mechanism called methods. ES6 supports these object-oriented components too.
+A class in terms of OOP is a blueprint for creating objects. A class encapsulates data for the object.
+
+
 
 
 
