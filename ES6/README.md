@@ -35,6 +35,7 @@ An internal  `[[PromiseState]]`  property is set to  `"pending"`,  `"fulfilled"`
 
 Lambda refers to anonymous functions in programming. Lambda functions are a concise mechanism to represent anonymous functions. These functions are also called as **Arrow functions**.
 There are 3 parts to a Arrow function −
+
 '''
 
     Parameters − A function may optionally have parameters.
@@ -42,7 +43,6 @@ There are 3 parts to a Arrow function −
     The fat arrow notation/lambda notation (=>): It is also called as the goes to operator.
 
     Statements − Represents the function’s instruction set.
-
 '''
 
 - Modules
