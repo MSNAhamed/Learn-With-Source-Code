@@ -32,6 +32,12 @@ React Native lets you build mobile apps using only JavaScript. It uses the same 
  ## React Native Limitations
 
     Native Components − If you want to create native functionality which is not created yet, you will need to write some platform specific code.
+
+The data inside React Components is managed by state and props.
+
+## Difference between State and Props
+
+The state is mutable while props are immutable. This means that state can be updated in the future while props cannot be updated.
     
     
 
