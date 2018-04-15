@@ -15,3 +15,18 @@ development and maintenance by providing some concepts:
 - Polymorphism
 - Abstraction
 - Encapsulation
+
+## Object
+
+Any entity that has state and behavior is known as an object. 
+For example: chair, pen, table, keyboard, bike etc. 
+It can be physicalObject
+
+Any entity that has state and behavior is known as an object. For example: chair, pen, table, keyboard, bike etc. It can be physical and logical.
+Class
+
+Collection of objects is called class. It is a logical entity. and logical.
+
+## Class
+
+Collection of objects is called class. It is a logical entity.
