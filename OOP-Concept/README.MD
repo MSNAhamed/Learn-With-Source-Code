@@ -42,3 +42,15 @@ When one task is performed by different ways i.e. known as polymorphism. For exa
 In java, we use method overloading and method overriding to achieve polymorphism.
 
 Another example can be to speak something e.g. cat speaks meaw, dog barks woof etc.
+
+## Abstraction
+
+Hiding internal details and showing functionality is known as abstraction. For example: phone call, we don't know the internal processing.
+
+In java, we use abstract class and interface to achieve abstraction.
+
+## Encapsulation
+
+Binding (or wrapping) code and data together into a single unit is known as encapsulation. For example: capsule, it is wrapped with different medicines.
+
+A java class is the example of encapsulation. Java bean is the fully encapsulated class because all the data members are private here.
