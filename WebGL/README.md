@@ -68,7 +68,6 @@ var vertices = [ 0.5, 0.5, 0.1,-0.5, 0.5,-0.5]
 
 Buffers are the memory areas of WebGL that hold the data. There are various buffers namely, drawing buffer, frame buffer, vetex buffer, and index buffer. The vertex buffer and index buffer are used to describe and process the geometry of the model.
 
-'''
 
     Vertex buffer objects − This stores data corresponding to each vertex (per-vertex data)
 
@@ -76,7 +75,7 @@ Buffers are the memory areas of WebGL that hold the data. There are various buff
 
     Frame buffer is a portion of graphics memory that hold the scene data. This buffer contains details such as width and height of the surface (in pixels), color of each pixel and their depth.
 
-'''
+
 
 After storing the vertices into arrays, we pass them to WegGL graphics pipeline using these Buffer objects.
 
