@@ -54,3 +54,9 @@ In java, we use abstract class and interface to achieve abstraction.
 Binding (or wrapping) code and data together into a single unit is known as encapsulation. For example: capsule, it is wrapped with different medicines.
 
 A java class is the example of encapsulation. Java bean is the fully encapsulated class because all the data members are private here.
+
+## Advantage of OOPs over Procedure-oriented programming language
+
+- OOPs makes development and maintenance easier where as in Procedure-oriented programming language it is not easy to manage if code grows as project size grows.
+- OOPs provides data hiding whereas in Procedure-oriented programming language a global data can be accessed from anywhere.
+- OOPs provides ability to simulate real-world event much more effectively. We can provide the solution of real word problem if we are using the Object-Oriented Programming language.
