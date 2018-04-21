@@ -60,3 +60,7 @@ A java class is the example of encapsulation. Java bean is the fully encapsulate
 - OOPs makes development and maintenance easier where as in Procedure-oriented programming language it is not easy to manage if code grows as project size grows.
 - OOPs provides data hiding whereas in Procedure-oriented programming language a global data can be accessed from anywhere.
 - OOPs provides ability to simulate real-world event much more effectively. We can provide the solution of real word problem if we are using the Object-Oriented Programming language.
+
+## What is difference between object-oriented programming language and object-based programming language?
+
+Object based programming language follows all the features of OOPs except Inheritance. JavaScript and VBScript are examples of object based programming languages.
