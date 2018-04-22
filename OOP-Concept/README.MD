@@ -64,3 +64,11 @@ A java class is the example of encapsulation. Java bean is the fully encapsulate
 ## What is difference between object-oriented programming language and object-based programming language?
 
 Object based programming language follows all the features of OOPs except Inheritance. JavaScript and VBScript are examples of object based programming languages.
+
+## Method in Java
+
+In java, a method is like function i.e. used to expose behavior of an object.
+
+**Advantage of Method**
+- Code Reusability
+- Code Optimization
