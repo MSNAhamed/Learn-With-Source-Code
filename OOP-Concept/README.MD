@@ -27,6 +27,13 @@ Class
 
 Collection of objects is called class. It is a logical entity. and logical.
 
+**3 Ways to initialize object**
+There are 3 ways to initialize object in java.
+
+- By reference variable
+- By method
+- By constructor
+
 ## Class
 
 Collection of objects is called class. It is a logical entity.
