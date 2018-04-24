@@ -36,7 +36,15 @@ There are 3 ways to initialize object in java.
 
 ## Class
 
-Collection of objects is called class. It is a logical entity.
+Collection of objects is called class. It is a logical entity.  It is a template or blueprint from which objects are created.
+
+**A class in Java can contain:**
+
+- fields
+- methods
+- constructors
+- blocks
+- nested class and interface
 
 ## Inheritance
 
