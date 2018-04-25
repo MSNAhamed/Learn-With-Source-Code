@@ -50,6 +50,10 @@ Collection of objects is called class. It is a logical entity.  It is a template
 
 When one object acquires all the properties and behaviours of parent object i.e. known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.
 
+**Why use inheritance in java**
+- For Method Overriding (so runtime polymorphism can be achieved).
+- For Code Reusability.
+
 ## Polymorphism
 
 When one task is performed by different ways i.e. known as polymorphism. For example: to convince the customer differently, to draw something e.g. shape or rectangle etc.
