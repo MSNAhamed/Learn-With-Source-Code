@@ -90,3 +90,7 @@ In java, a method is like function i.e. used to expose behavior of an object.
 **Advantage of Method**
 - Code Reusability
 - Code Optimization
+
+## Constructor in Java
+
+In Java, constructor is a block of codes similar to method. It is called when an instance of object is created and memory is allocated for the object.
