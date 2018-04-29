@@ -57,6 +57,10 @@ When one object acquires all the properties and behaviours of parent object i.e.
 - For Method Overriding (so runtime polymorphism can be achieved).
 - For Code Reusability.
 
+The extends keyword indicates that you are making a new class that derives from an existing class. The meaning of "extends" is to increase the functionality.
+
+In the terminology of Java, a class which is inherited is called parent or super class and the new class is called child or subclass.
+
 ## Polymorphism
 
 When one task is performed by different ways i.e. known as polymorphism. For example: to convince the customer differently, to draw something e.g. shape or rectangle etc.
