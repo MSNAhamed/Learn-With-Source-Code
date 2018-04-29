@@ -39,6 +39,8 @@ Collection of objects is called class. It is a logical entity.  It is a template
 
 **Sub Class/Child Class:** Subclass is a class which inherits the other class. It is also called a derived class, extended class, or child class.
 
+**Super Class/Parent Class:** Superclass is the class from where a subclass inherits the features. It is also called a base class or a parent class.
+
 **A class in Java can contain:**
 
 - fields
