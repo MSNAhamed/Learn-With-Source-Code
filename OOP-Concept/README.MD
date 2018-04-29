@@ -37,6 +37,8 @@ Collection of objects is called class. It is a logical entity. and logical.
 
 Collection of objects is called class. It is a logical entity.  It is a template or blueprint from which objects are created.
 
+**Sub Class/Child Class:** Subclass is a class which inherits the other class. It is also called a derived class, extended class, or child class.
+
 **A class in Java can contain:**
 
 - fields
