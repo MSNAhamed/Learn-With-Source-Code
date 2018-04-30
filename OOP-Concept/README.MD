@@ -49,6 +49,16 @@ Collection of objects is called class. It is a logical entity.  It is a template
 - blocks
 - nested class and interface
 
+**Abstract Class**
+
+A class which contains the abstract keyword in its declaration is known as abstract class.
+
+- Abstract classes may or may not contain abstract methods, i.e., methods without body ( public void get(); )
+- But, if a class has at least one abstract method, then the class must be declared abstract.
+- If a class is declared abstract, it cannot be instantiated.
+-To use an abstract class, you have to inherit it from another class, provide implementations to the abstract methods in it.
+- If you inherit an abstract class, you have to provide implementations to all the abstract methods in it.
+
 ## Inheritance
 
 When one object acquires all the properties and behaviours of parent object i.e. known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.
