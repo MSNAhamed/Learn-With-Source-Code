@@ -26,3 +26,7 @@ These design patterns are all about class instantiation. This pattern can be fur
  A fully initialized instance to be copied or cloned
 - **Singleton**
  A class of which only a single instance can exist
+
+## Structural patterns
+
+In Software Engineering, Structural Design Patterns are Design Patterns that ease the design by identifying a simple way to realize relationships between entities.
